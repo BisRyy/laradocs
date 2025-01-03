@@ -23,4 +23,4 @@ jobs:
       run: composer require --dev phpunit/phpunit
 
     - name: Execute tests (Unit and Feature tests) via PHPUnit/Pest
-      run: phpunit
+      run: vendor/bin/phpunit
